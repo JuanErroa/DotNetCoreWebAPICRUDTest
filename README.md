@@ -22,7 +22,6 @@ all the logic business of the application, the second project is a MVC Web Appli
 in order to satisfy all the functionality  from the Web API.
 
 ### Built With
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 * [.Net Core](https://dotnet.microsoft.com/download)
 * [EntityFrameworkCore](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore/5.0.0-rc.2.20475.6)
 * [SQLite](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.Sqlite/5.0.0-rc.2.20475.6)
