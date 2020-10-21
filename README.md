@@ -25,6 +25,7 @@ in order to satisfy all the functionality  from the Web API.
 This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 * [.Net Core](https://dotnet.microsoft.com/download)
 * [EntityFrameworkCore](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore/5.0.0-rc.2.20475.6)
+* [SQLite](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.Sqlite/5.0.0-rc.2.20475.6)
 * [Bootstrap](https://getbootstrap.com)
 * [JQuery](https://jquery.com)
 * [ClosedXML](https://www.nuget.org/packages/ClosedXML/)
