@@ -30,6 +30,7 @@ C:\Users\JuanErroa\source\repos\SaongroupCRUDTest\FrontEnd\bin\Debug\netcoreapp3
 C:\Users\JuanErroa\source\repos\SaongroupCRUDTest\FrontEnd\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
 C:\Users\JuanErroa\source\repos\SaongroupCRUDTest\FrontEnd\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
 C:\Users\JuanErroa\source\repos\SaongroupCRUDTest\FrontEnd\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+C:\Users\JuanErroa\source\repos\SaongroupCRUDTest\FrontEnd\bin\Debug\netcoreapp3.1\System.Linq.Dynamic.Core.dll
 C:\Users\JuanErroa\source\repos\SaongroupCRUDTest\FrontEnd\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
 C:\Users\JuanErroa\source\repos\SaongroupCRUDTest\FrontEnd\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
 C:\Users\JuanErroa\source\repos\SaongroupCRUDTest\FrontEnd\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
