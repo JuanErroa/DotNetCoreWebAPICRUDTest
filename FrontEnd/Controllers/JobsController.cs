@@ -69,6 +69,28 @@ namespace FrontEnd.Controllers
             return RedirectToAction(nameof(Index));
         }
 
+        [HttpGet]
+        public async Task<IActionResult> Edit(int? Id)
+        {
+            Jobs job = await jobsService.GetJobById(Id);
+            if (job == null)
+                return RedirectToAction(nameof(Index));
+
+            return View(job);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Edit(Jobs editedJob)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View(editedJob);
+            }
+
+            await jobsService.EditJob(editedJob);
+            return RedirectToAction(nameof(Index));
+        }
+
         static string UppercaseFirst(string s)
         {
             if (string.IsNullOrEmpty(s))

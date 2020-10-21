@@ -14,6 +14,8 @@ namespace FrontEnd.Services
     {
         public Task<IEnumerable<Jobs>> GetJobList();
         public Task CreateJob(Jobs job);
+        public Task<Jobs> GetJobById(int? id);
+        public Task EditJob(Jobs job);
     }
 
     public class JobsServices : IJobs
@@ -53,6 +55,38 @@ namespace FrontEnd.Services
                 }
             }
         }
+
+
+        public async Task<Jobs> GetJobById(int? id)
+        {
+            if (id == null)
+                return null;
+
+            using (var httpClient = new HttpClient())
+            {
+                using (var response = await httpClient.GetAsync(apiBaseUrl + id))
+                {
+                    string apiResponse = await response.Content.ReadAsStringAsync();
+                    Jobs job = JsonConvert.DeserializeObject<Jobs>(apiResponse);
+                    return job;
+                }
+            }
+        }
+
+        public async Task EditJob(Jobs editedJob)
+        {
+            using (var httpClient = new HttpClient())
+            {
+                StringContent content = new StringContent(JsonConvert.SerializeObject(editedJob), Encoding.UTF8, "application/json");
+
+                using (var response = await httpClient.PutAsync(apiBaseUrl + editedJob.Job, content))
+                {
+                    string apiResponse = await response.Content.ReadAsStringAsync();
+                    var santi = JsonConvert.DeserializeObject<Jobs>(apiResponse);
+                }
+            }
+        }
+
 
     }
 }
