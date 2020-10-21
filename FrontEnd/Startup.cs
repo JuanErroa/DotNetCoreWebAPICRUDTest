@@ -46,7 +46,7 @@ namespace FrontEnd
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=Jobs}/{action=Index}/{id?}");
             });
         }
     }
