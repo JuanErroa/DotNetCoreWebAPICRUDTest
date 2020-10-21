@@ -51,6 +51,24 @@ namespace FrontEnd.Controllers
             return Json(new { data = data, draw = parameters.Draw, recordsTotal = totalRows, recordsFiltered = totalRowsFiltered });
         }
 
+        [HttpGet]
+        public IActionResult Create()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Create(Jobs newJob)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View(newJob);
+            }
+
+            await jobsService.CreateJob(newJob);
+            return RedirectToAction(nameof(Index));
+        }
+
         static string UppercaseFirst(string s)
         {
             if (string.IsNullOrEmpty(s))

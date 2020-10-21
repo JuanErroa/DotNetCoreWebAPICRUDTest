@@ -108,3 +108,4 @@ C:\Users\JuanErroa\source\repos\SaongroupCRUDTest\FrontEnd\obj\Debug\netcoreapp3
 C:\Users\JuanErroa\source\repos\SaongroupCRUDTest\FrontEnd\obj\Debug\netcoreapp3.1\FrontEnd.pdb
 C:\Users\JuanErroa\source\repos\SaongroupCRUDTest\FrontEnd\obj\Debug\netcoreapp3.1\FrontEnd.genruntimeconfig.cache
 C:\Users\JuanErroa\source\repos\SaongroupCRUDTest\FrontEnd\obj\Debug\netcoreapp3.1\FrontEnd.csprojAssemblyReference.cache
+C:\Users\JuanErroa\source\repos\SaongroupCRUDTest\FrontEnd\obj\Debug\netcoreapp3.1\Razor\Views\Jobs\Create.cshtml.g.cs
