@@ -1,7 +1,7 @@
 ﻿@model FrontEnd.Models.Jobs
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "CreateJob";
 }
 
 <h1>Create</h1>
@@ -55,4 +55,5 @@
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    <script src="~/js/DateValidation.js"></script>
 }
