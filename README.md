@@ -49,7 +49,7 @@ dotnet restore
 ### Installation
 
 Once you have the solution downloaded you will just have to wait to the nutget package manager finish to download all the 
-packages at the solution, this wouln't be too much and it's possibly you may not even realized when it's done.
+packages at the solution, this wouln't take too long and it's possibly you may not even realized when it's done.
 
 ##### Ports:  The projects use the ports "51155" and "51157" so if you are using this ports in another application, this may cause a problem launching at the solution. 
 In order to solve this you will have to: 
