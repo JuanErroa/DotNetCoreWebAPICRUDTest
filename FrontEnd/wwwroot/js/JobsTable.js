@@ -67,3 +67,43 @@
         "order": [0, "asc"],
     });
 });
+
+
+$('#jobTable tbody').on('click', '.delBtn', function () {
+    let row = jobTable.row($(this).parent().parent()).data();
+
+    Swal.fire({
+        title: 'Confirm',
+        text: 'Do you want to remove \n' + row.jobTitle + '?',
+        icon: 'error',
+        confirmButtonText: 'Cool'
+    }).then(function (confirm) {
+        if (confirm.isConfirmed) {
+            removeJob(row.job, row.jobTitle);
+        }
+    });
+});
+
+
+function removeJob(jobId, title) {
+    $.ajax({
+        url: '/Jobs/RemoveJob/' + jobId,
+        type: 'post',
+        dataType: 'json',
+        data: { jobId },
+        success: function (data) {
+
+            Swal.fire({
+                icon: 'success',
+                title: title + ' ' + 'Has been Removed',
+                showConfirmButton: false,
+                timer: 1500
+            });
+
+            jobTable.ajax.reload();
+        },
+        error: function (data) {
+            alert('error');
+        }
+    });
+}

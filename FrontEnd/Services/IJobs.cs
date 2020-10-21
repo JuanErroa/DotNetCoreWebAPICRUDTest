@@ -16,6 +16,7 @@ namespace FrontEnd.Services
         public Task CreateJob(Jobs job);
         public Task<Jobs> GetJobById(int? id);
         public Task EditJob(Jobs job);
+        public Task<string> DeleteJob(int? id);
     }
 
     public class JobsServices : IJobs
@@ -87,6 +88,22 @@ namespace FrontEnd.Services
             }
         }
 
+
+        public async Task<string> DeleteJob(int? id)
+        {
+            if (id.HasValue)
+            {
+                using (var httpClient = new HttpClient())
+                {
+                    using (var response = await httpClient.DeleteAsync(apiBaseUrl + id))
+                    {
+                        string apiResponse = await response.Content.ReadAsStringAsync();
+                        return "Ok";
+                    }
+                }
+            }
+            return null;
+        }
 
     }
 }

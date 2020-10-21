@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using FrontEnd.Models;
 using FrontEnd.Services;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 
 namespace FrontEnd.Controllers
 {
@@ -89,6 +90,15 @@ namespace FrontEnd.Controllers
 
             await jobsService.EditJob(editedJob);
             return RedirectToAction(nameof(Index));
+        }
+
+        [HttpPost]
+        public async Task<string> RemoveJob(int? id)
+        {
+            if (!id.HasValue)
+                return null;
+
+            return JsonConvert.SerializeObject(await jobsService.DeleteJob(id));
         }
 
         static string UppercaseFirst(string s)
