@@ -48,6 +48,14 @@
               "target": "Package",
               "version": "[3.1.9, )"
             },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
             "Microsoft.EntityFrameworkCore.Sqlite.Core": {
               "target": "Package",
               "version": "[3.1.9, )"
@@ -57,6 +65,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[3.1.9, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.4, )"
             }
           },
           "imports": [
