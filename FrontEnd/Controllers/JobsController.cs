@@ -101,6 +101,17 @@ namespace FrontEnd.Controllers
             return JsonConvert.SerializeObject(await jobsService.DeleteJob(id));
         }
 
+        [HttpGet]
+        public async Task<IActionResult> GenerateJobsXlsx(int? id)
+        {
+            var stream = await jobsService.GenerateXlsx();
+            return this.File(
+                    fileContents: stream.ToArray(),
+                    contentType: "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    fileDownloadName: "Jobs.xlsx"
+                );
+        }
+
         static string UppercaseFirst(string s)
         {
             if (string.IsNullOrEmpty(s))

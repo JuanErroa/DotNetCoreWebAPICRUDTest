@@ -85,8 +85,6 @@ C:\Users\JuanErroa\source\repos\SaongroupCRUDTest\FrontEnd\bin\Debug\netcoreapp3
 C:\Users\JuanErroa\source\repos\SaongroupCRUDTest\FrontEnd\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\JuanErroa\source\repos\SaongroupCRUDTest\FrontEnd\obj\Debug\netcoreapp3.1\FrontEnd.AssemblyInfoInputs.cache
 C:\Users\JuanErroa\source\repos\SaongroupCRUDTest\FrontEnd\obj\Debug\netcoreapp3.1\FrontEnd.AssemblyInfo.cs
-C:\Users\JuanErroa\source\repos\SaongroupCRUDTest\FrontEnd\obj\Debug\netcoreapp3.1\FrontEnd.csproj.CoreCompileInputs.cache
-C:\Users\JuanErroa\source\repos\SaongroupCRUDTest\FrontEnd\obj\Debug\netcoreapp3.1\FrontEnd.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\JuanErroa\source\repos\SaongroupCRUDTest\FrontEnd\obj\Debug\netcoreapp3.1\FrontEnd.RazorAssemblyInfo.cache
 C:\Users\JuanErroa\source\repos\SaongroupCRUDTest\FrontEnd\obj\Debug\netcoreapp3.1\FrontEnd.RazorAssemblyInfo.cs
 C:\Users\JuanErroa\source\repos\SaongroupCRUDTest\FrontEnd\obj\Debug\netcoreapp3.1\FrontEnd.TagHelpers.input.cache
@@ -110,3 +108,9 @@ C:\Users\JuanErroa\source\repos\SaongroupCRUDTest\FrontEnd\obj\Debug\netcoreapp3
 C:\Users\JuanErroa\source\repos\SaongroupCRUDTest\FrontEnd\obj\Debug\netcoreapp3.1\FrontEnd.csprojAssemblyReference.cache
 C:\Users\JuanErroa\source\repos\SaongroupCRUDTest\FrontEnd\obj\Debug\netcoreapp3.1\Razor\Views\Jobs\Create.cshtml.g.cs
 C:\Users\JuanErroa\source\repos\SaongroupCRUDTest\FrontEnd\obj\Debug\netcoreapp3.1\Razor\Views\Jobs\Edit.cshtml.g.cs
+C:\Users\JuanErroa\source\repos\SaongroupCRUDTest\FrontEnd\bin\Debug\netcoreapp3.1\ClosedXML.dll
+C:\Users\JuanErroa\source\repos\SaongroupCRUDTest\FrontEnd\bin\Debug\netcoreapp3.1\DocumentFormat.OpenXml.dll
+C:\Users\JuanErroa\source\repos\SaongroupCRUDTest\FrontEnd\bin\Debug\netcoreapp3.1\ExcelNumberFormat.dll
+C:\Users\JuanErroa\source\repos\SaongroupCRUDTest\FrontEnd\bin\Debug\netcoreapp3.1\System.IO.Packaging.dll
+C:\Users\JuanErroa\source\repos\SaongroupCRUDTest\FrontEnd\obj\Debug\netcoreapp3.1\FrontEnd.csproj.CoreCompileInputs.cache
+C:\Users\JuanErroa\source\repos\SaongroupCRUDTest\FrontEnd\obj\Debug\netcoreapp3.1\FrontEnd.MvcApplicationPartsAssemblyInfo.cache
