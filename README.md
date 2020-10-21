@@ -28,6 +28,7 @@ This section should list any major frameworks that you built your project using.
 * [SQLite](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.Sqlite/5.0.0-rc.2.20475.6)
 * [Bootstrap](https://getbootstrap.com)
 * [JQuery](https://jquery.com)
+* [JQueryDataTable](https://datatables.net/)
 * [ClosedXML](https://www.nuget.org/packages/ClosedXML/)
 * [TempusDominus](https://tempusdominus.github.io/bootstrap-4/)
 * [SweetAlert2](https://sweetalert2.github.io/)
