@@ -1,4 +1,4 @@
-# DotNetCoreWebAPICRUDTest
+# .Net Core Web API CRUD Test
 
 <!-- TABLE OF CONTENTS -->
 ### Table of Contents
